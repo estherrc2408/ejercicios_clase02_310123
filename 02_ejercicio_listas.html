@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Usando listas crear una página igual estructurada que la imagen:https://github.com/daviniathebridge/fs_ft_ene_23/blob/main/assets/ramp_up/clase1/Ejercicio2_HTML.png-->
+    <h1><strong>Internet</strong></h1>
+    <h2><strong>Contenido</strong></h2>
+    <ol><!--1era lista, numerada-->
+        <li>Principales protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+    <ol><!--2da lista numerada, desarrollo de los conceptos de la 1era-->
+        <strong><h2><li>Principales protocolos</li></h2></strong><!--En este caso da igual el orden en el que encapsulemos strong y h2-->
+            <ul><!--2.1 sublista dentro de la 2da, no numerada-->
+                <li>Transmision de ficheros</li>
+                    <ul><!--2.1.1subsublista no numerada-->
+                        <li>FTP</li>
+                    </ul>
+                <li>Correo electronico</li>
+                    <ul><!--2.1.2subsublista no numerada-->
+                        <li>IMAP</li>
+                        <li>POP</li>
+                        <li>SMTP</li>
+                    </ul>
+            </ul>
+        <strong><h2><li>Formas de conectarse</li></h2></strong><!--En este caso da igual el orden en el que encapsulemos strong y h2-->
+    </ol><!--cierre de la 2da lista numerada, no es necesario incluir el contenido de las descripciones dentro de la lista-->        
+            <dl><!--Espacio para una lista de definición-->
+                <dt>Red Telefónica Conmutada (RTC)</dt><!--Término a definir-->
+                <dd>La línea telefónica de toda la vida. Para acceder a Internet es necesario un módem</dd><!--Definición del término-->
+                <dt>Red  Digital de Servicios Integrados (RDSI)</dt>
+                <dd>Una línea telefónica especial. Para acceder a Internet es necesario un módem RDSI</dd>
+                <dt>Línea de Abonado Digital Asimétrica (ADSL)</dt>
+                <dd>Se basa en la conversión de una línea RTC en una linea de alta velocidad. Para acceder a Internet es necesario un módem ADSL </dd>
+            </dl>
+</body>
+</html>
